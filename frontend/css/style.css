@@ -1,0 +1,10 @@
+/* GENERAL */
+
+.done{
+    text-decoration: line-through;
+    color: green;
+}
+
+.undone{
+    color: red;
+}

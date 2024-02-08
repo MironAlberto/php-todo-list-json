@@ -1,0 +1,26 @@
+[
+    {
+        "todo": "Andare al cinema",
+        "stato": false
+    },
+    {
+        "todo": "Comprare il pane",
+        "stato": true
+    },
+    {
+        "todo": "Studiare",
+        "stato": true
+    },
+    {
+        "todo": "Cucinare la cena",
+        "stato": false
+    },
+    {
+        "todo": "Giocare a calcio",
+        "stato": false
+    },
+    {
+        "todo": "Fare benzina",
+        "stato": true
+    }
+]

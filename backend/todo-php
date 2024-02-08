@@ -1,0 +1,7 @@
+<?php
+    $database = file_get_contents('database.json');
+    $todo = json_decode($database, true);
+
+    header('Content-Type: ./database.json');
+    echo json_encode($todo);
+?>
