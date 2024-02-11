@@ -35,6 +35,12 @@
                 <h1>
                     {{ message }}
                 </h1>
+                <div class="d-flex my-4">
+                    <input v-model="addTodo" class="form-control" type="text" >
+                    <button @click="toDo()" class="btn btn-dark ms-3">
+                        Add
+                    </button>
+                </div>
 
                 <ul class="list-group w-100">
                     <li v-for="(todo, index) in todos" :class="todo.stato ? 'done' : 'undone'" class="list-group-item w-100">
